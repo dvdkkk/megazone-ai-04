@@ -107,7 +107,7 @@ const coursesData: CourseTrack[] = [
     projectTitle: 'Vibe Coding MVP 서비스 개발 · 기업용 AI 에이전트 플랫폼 구축',
     projectDesc: '(업무 자동화 비서, 고객 지원 티켓 자동 응대, 채용 서류 검토 에이전트) — 실제 동작하는 에이전트 포트폴리오 완성이 목표입니다.',
     careers: ['#AI 엔지니어', '#주니어 ML 엔지니어', '#LLM 애플리케이션 엔지니어', '#RAG·Agentic AI 엔지니어', '#AI 응용 서비스 개발자'],
-    detailUrl: 'https://megazone-ai-01.vercel.app'
+    detailUrl: 'https://megazone-ai-jh-01.vercel.app'
   },
   {
     id: 'architect',
@@ -152,7 +152,7 @@ const coursesData: CourseTrack[] = [
     projectTitle: 'AI Cloud Project',
     projectDesc: ' — 금융·공공 기관용 폐쇄형 AI 검색 시스템, 대규모 트래픽 대응 AI 추천 시스템, 스마트 팩토리 예지보전 모니터링, SaaS형 AI 문서 요약·번역 플랫폼 중 팀별 선택 구축.',
     careers: ['#클라우드 엔지니어', '#AI 인프라 엔지니어', '#MLOps 엔지니어', '#DevOps 엔지니어', '#주니어 솔루션 아키텍트'],
-    detailUrl: 'https://megazone-ai-02.vercel.app'
+    detailUrl: 'https://megazone-ai-jh-02.vercel.app'
   },
   {
     id: 'security',
@@ -197,7 +197,7 @@ const coursesData: CourseTrack[] = [
     projectTitle: 'Secure Cloud & AI Project',
     projectDesc: ' — ZTNA 기반 하이브리드 보안 네트워크 구축, Secure RAG 사내 지식 검색 봇, LLM 가드레일·환각 제어 거버넌스, AI-SOAR 기반 지능형 보안 관제 자동화.',
     careers: ['#보안 엔지니어', '#클라우드 보안 엔지니어', '#보안 관제(SOC) 전문가', '#주니어 AI 보안 아키텍트'],
-    detailUrl: 'https://megazone-ai-03.vercel.app'
+    detailUrl: 'https://megazone-ai-jh-03.vercel.app'
   },
   {
     id: 'data',
@@ -242,7 +242,7 @@ const coursesData: CourseTrack[] = [
     projectTitle: 'Data Pipeline Project',
     projectDesc: ' — E-commerce 실시간 로그 분석 파이프라인, 금융 이상 거래 탐지(FDS) 스트리밍 처리, LLM 학습을 위한 대규모 말뭉치(Corpus) 전처리 및 벡터화 파이프라인 구축.',
     careers: ['#데이터 엔지니어', '#빅데이터 플랫폼 엔지니어', '#클라우드 데이터 엔지니어', '#데이터 아키텍트'],
-    detailUrl: 'https://megazone-ai-04.vercel.app'
+    detailUrl: 'https://megazone-ai-jh-04.vercel.app'
   }
 ];
 
@@ -759,7 +759,7 @@ export default function App() {
     // 2. Background transmission with keepalive: true to https://inputhaven.com/api/v1/submit
     try {
       const payload = new FormData();
-      payload.append('_form_id', '914168973e93bda60f4eac1e7cbe1449');
+      payload.append('_form_id', '3fa060f52bb14270046ecce41d896bc4');
       payload.append('name', currentData.name);
       payload.append('age', currentData.age);
       payload.append('phone', currentData.phone);
@@ -806,7 +806,7 @@ export default function App() {
       <header className="header" id="header">
         <div className="header-inner">
           <div className="header-left">
-            <a href="https://megazone-ai.vercel.app" className="logo-wrap" id="headerLogoLink">
+            <a href="https://megazone-ai-jh.vercel.app" className="logo-wrap" id="headerLogoLink">
               <img
                 src="https://postfiles.pstatic.net/MjAyNjA4MjRfMTI1/MDAxNzg3NTM3NDEyNTY1.WG7wkREkwquB6If3kCAPJA6d73meDHQDxPmKvqMkAcYg.Um18Qeximx5gynA2BsNy3hywDKNxVqzwyG0MUl4kU5Ug.PNG/%EB%A1%9C%EA%B3%A0.png?type=w966"
                 alt="MEGAZONE CLOUD 메가존클라우드 로고"
@@ -815,10 +815,10 @@ export default function App() {
               />
             </a>
             <nav className="gnb-nav">
-              <a href="https://megazone-ai-01.vercel.app">AI 에이전트</a>
-              <a href="https://megazone-ai-02.vercel.app">AI 아키텍트</a>
-              <a href="https://megazone-ai-03.vercel.app">AI 보안</a>
-              <a href="https://megazone-ai-04.vercel.app">AI 데이터</a>
+              <a href="https://megazone-ai-jh-01.vercel.app">AI 에이전트</a>
+              <a href="https://megazone-ai-jh-02.vercel.app">AI 아키텍트</a>
+              <a href="https://megazone-ai-jh-03.vercel.app">AI 보안</a>
+              <a href="https://megazone-ai-jh-04.vercel.app">AI 데이터</a>
               <a href="#faq">FAQ</a>
             </nav>
           </div>
@@ -839,10 +839,10 @@ export default function App() {
 
         {/* Mobile Drawer */}
         <div className={`mobile-drawer ${mobileMenuOpen ? 'open' : ''}`} id="mobileDrawer">
-          <a href="https://megazone-ai-01.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 에이전트</a>
-          <a href="https://megazone-ai-02.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 아키텍트</a>
-          <a href="https://megazone-ai-03.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 보안</a>
-          <a href="https://megazone-ai-04.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 데이터</a>
+          <a href="https://megazone-ai-jh-01.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 에이전트</a>
+          <a href="https://megazone-ai-jh-02.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 아키텍트</a>
+          <a href="https://megazone-ai-jh-03.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 보안</a>
+          <a href="https://megazone-ai-jh-04.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 데이터</a>
           <a href="#faq" onClick={() => setMobileMenuOpen(false)}>FAQ</a>
           <a
             href="#apply"
@@ -2368,23 +2368,6 @@ export default function App() {
               </p>
 
               <div className="apply-yellow-contact">
-                <a
-                  href="tel:1877-5280"
-                  className="apply-contact-item"
-                  onClick={(e) => {
-                    if (window.innerWidth >= 768) {
-                      e.preventDefault();
-                    }
-                  }}
-                >
-                  <div className="apply-icon-circle">
-                    <Phone size={22} color="#ffffff" fill="#ffffff" />
-                  </div>
-                  <div className="apply-contact-text">
-                    <span className="apply-contact-label">교육문의</span>
-                    <span className="apply-contact-value phone-number">1877-5280</span>
-                  </div>
-                </a>
                 <div className="apply-contact-item">
                   <div className="apply-icon-circle">
                     <MapPin size={22} color="#ffffff" />
@@ -2412,7 +2395,7 @@ export default function App() {
                 method="POST"
                 onSubmit={handleFormSubmit}
               >
-                <input type="hidden" name="_form_id" value="914168973e93bda60f4eac1e7cbe1449" />
+                <input type="hidden" name="_form_id" value="3fa060f52bb14270046ecce41d896bc4" />
                 {/* Row 1: Name & Age */}
                 <div className="apply-form-row-2">
                   <div className="apply-form-group">
@@ -2601,7 +2584,7 @@ export default function App() {
           <div>
             <div className="company-name">메가존클라우드(주) | MBC아카데미 컴퓨터교육센터</div>
             <p>MEGAZONE CLOUD x MBC아카데미 컴퓨터교육센터 </p>
-            <p>AI Campus · K-Digital Training | 교육문의 : <a href="tel:1877-5280" className="footer-tel-link" onClick={(e) => { if (window.innerWidth >= 768) e.preventDefault(); }}>1877-5280</a></p>
+            <p>AI Campus · K-Digital Training</p>
             <p>교육장소 : 과천 캠퍼스 (경기도 과천시 과천대로7길 74) | 역삼 캠퍼스 (서울 강남구 논현로85길 46)</p>
             <p>주관: 고용노동부 | 운영: 메가존클라우드 | 파트너: MBC아카데미 컴퓨터교육센터</p>
           </div>
